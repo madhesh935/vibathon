@@ -1,0 +1,39 @@
+# === General ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === Secrets / env ===
+.env
+.env.*
+!.env.example
+
+# === Node / Frontend / Backend ===
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Python services ===
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# === Relay node data ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Local tooling ===
+.idea/
+.vscode/
+
